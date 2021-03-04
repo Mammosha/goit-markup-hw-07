@@ -1,0 +1,15 @@
+.portfolio {
+  &.header {
+    border-bottom: var(--portfolio-header-line);
+  }
+}
+
+.portfolio-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  & .portfolio-btn:not(:last-child) {
+    margin-right: 8px;
+  }
+}
