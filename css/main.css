@@ -86,6 +86,12 @@ img {
   padding-bottom: 94px;
 }
 
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .title {
   color: var(--black-color);
   padding: 0px;
@@ -189,12 +195,6 @@ img {
 .footer-logo {
   color: var(--white-text-color);
   display: inline-block;
-}
-
-.main-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .navigation {
